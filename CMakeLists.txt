@@ -34,5 +34,5 @@ target_link_libraries(lib25_xaps_imap_plugin ${LIBDOVECOT} ${LIBDOVECOTSTORAGE})
 set_target_properties(lib25_xaps_push_notification_plugin PROPERTIES PREFIX "")
 set_target_properties(lib25_xaps_imap_plugin PROPERTIES PREFIX "")
 
-install(TARGETS lib25_xaps_push_notification_plugin DESTINATION /usr/lib/dovecot/modules)
-install(TARGETS lib25_xaps_imap_plugin DESTINATION /usr/lib/dovecot/modules)
+install(TARGETS lib25_xaps_push_notification_plugin DESTINATION /usr/lib/dovecot)
+install(TARGETS lib25_xaps_imap_plugin DESTINATION /usr/lib/dovecot)
